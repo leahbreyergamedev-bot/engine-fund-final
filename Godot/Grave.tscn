@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d246c1f8hi2wg"]
+
+[ext_resource type="ArrayMesh" uid="uid://ctves55mpe2q5" path="res://OBJ/pumpkin.obj" id="1_tj382"]
+[ext_resource type="ArrayMesh" uid="uid://cv77o6rcivmvw" path="res://OBJ/pine.obj" id="2_ex1dt"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_q7mv5"]
+
+[node name="Node3D" type="Node3D" unique_id=935814140]
+
+[node name="Floor" type="MeshInstance3D" parent="." unique_id=1545153818]
+transform = Transform3D(8.924486, 0, 0, 0, 8.924486, 0, 0, 0, 8.924486, 0, 0, 0)
+mesh = SubResource("PlaneMesh_q7mv5")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=550777486]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+mesh = ExtResource("1_tj382")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2129398023]
+mesh = ExtResource("2_ex1dt")

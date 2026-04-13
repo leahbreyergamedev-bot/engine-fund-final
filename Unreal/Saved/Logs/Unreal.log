@@ -1249,3 +1249,9 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.13-21.08.44:005][348]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA7EB30D9-4E74-71B2-3055-F2B9ED85F7B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=3b24844b41abcef4f161b6bf7ca202ca%7C5cba09ab82314beeaef33bbb7f9593ee%7C44b059dd-7161-4415-889c-28fca60d2ee8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
 [2026.04.13-21.08.44:598][348]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
 [2026.04.13-21.08.44:601][348]LogXGEController: Cleaning working directory: C:/Users/leahb/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.04.13-21.08.44:615][348]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.04.13-21.08.44:615][348]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.04.13-21.08.44:615][348]LogPakFile: Destroying PakPlatformFile
+[2026.04.13-21.08.45:168][348]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.04.13-21.08.45:205][348]LogExit: Exiting.
+[2026.04.13-21.08.45:218][348]Log file closed, 04/13/26 15:08:45
